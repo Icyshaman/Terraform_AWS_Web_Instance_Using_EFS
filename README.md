@@ -1,6 +1,6 @@
 # Terraform_AWS_Web_Instance_Using_EFS
 >**Overview**
-* [web_instance.tf](https://github.com/Icyshaman/Terraform_AWS_Web_Instance/blob/master/web_instance.tf) is a terraform file which will perform following task:
+* [web_instance.tf](https://github.com/Icyshaman/Terraform_AWS_Web_Instance_Using_EFS/blob/master/web_instance.tf) is a terraform file which will perform following task:
     
     * Creates a key and a security group which allow port 22 and port 80.
     
