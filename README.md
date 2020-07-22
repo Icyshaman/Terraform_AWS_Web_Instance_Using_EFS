@@ -23,8 +23,6 @@
 
 * Enter AWS Access Key ID, AWS Secret Access Key, Default region name, Default output format.
 
-* In [web_instance.tf](https://github.com/Icyshaman/Terraform_AWS_Web_Instance_Using_EFS/blob/master/web_instance.tf) update **region** and **profile** in provider block **(line 2 and 3)**, **vpc_id** in aws_security_group resource block **(line 22)**, **inline** with your github repo in provisioner block in null_resource resource block **(line 108)**, **bucket** in aws_s3_bucket resource block **(line 114)**, **command** with your github repo in provisioner block in aws_s3_bucket resource block **(line 124)**, **source** in aws_s3_bucket_object resource block **(line 140)**.
-
 * Run command **terraform init** to download all the plugins required.
 
 * Run command **terraform apply** to create the infrastructure.
